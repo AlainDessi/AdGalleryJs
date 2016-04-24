@@ -1,0 +1,18 @@
+{
+  "name": "ADGalleryJs",
+  "version": "1.0.0",
+  "description": "Galerie photos OnePage avec Zoom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alain Dessi <alain.dessi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1"
+  }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AD Gallery Js</title>
+  <link rel="stylesheet" type="text/css" href="/css/ADGalleryJs.css">
+  <style type="text/css">
+    body { margin: 0; padding: 0; }
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 50px;
+      background-color: #222;
+    }
+    nav .title img {
+      width: 32px;
+      height: 32px;
+      padding-top: 9px;
+      padding-left: 16px;
+      padding-right: 8px;
+      vertical-align: middle;
+      float: left;
+    }
+    nav .title h1 {
+      margin: 0 0 0 16px;
+      padding: 0;
+      font-family: Helvetica, sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 50px;
+      color: #fff;
+    }
+    nav .title h1 span {
+      font-size: 14px;
+      color: #A0A0A0;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="title"><img src="/demo/imgs/adgalleryjs64x64.png"><h1>AdGalleryJs <span>DEMO</span></div>
+</nav>
+<div id="adgallery">
+  <ul>
+    <li><img src="/imgs/img1.jpg"></li>
+    <li><img src="/imgs/img2.jpg"></li>
+    <li><img src="/imgs/img3.jpg"></li>
+    <li><img src="/imgs/img4.jpg"></li>
+    <li><img src="/imgs/img5.jpg"></li>
+    <li><img src="/imgs/img6.jpg"></li>
+  </ul>
+  <div class="adgallery-nav adgallery-left"></div>
+  <div class="adgallery-nav adgallery-right"></div>
+</div>
+<script src="/js/ADGalleryJs.js"></script>
+<script>
+    AdGallery( '#adgallery', {
+        padding: 120,
+        imgSpacing: 16,
+        zoom: true,
+        wheelControl: true
+    });
+</script>
+</body>
+</html>
